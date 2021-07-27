@@ -7,11 +7,7 @@ import re
 from pathlib import Path
 
 pattern = '../**/models'
-
 appsdir = '..'
-
-needs_migrations = []
-needs_init = []
 installed_apps = []
 apps = {}
 
